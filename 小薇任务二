@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>好好学前端</title>
+</head>
+<style type="text/css">
+	body{margin:0;padding: 0;background-color: #DDDDDD}
+	header nav {background-color: black;height: 110px;}
+	header nav ul{list-style: none;margin: 0;padding:0;}
+	li a {display: block;color: white;font-size: 25px;text-align: center;line-height:70px;padding: 14px 16px;text-decoration: none;}
+	.logo{float: left;list-style: none;}
+	.right{float: right;list-style: none;}
+	.right li{float: right;}
+	.main{margin: 20px;padding: 20px;border: 1px solid #000000;box-shadow: #000000 1px 1px 1px;background-color: #FFFFFF;}
+	.w3school{text-decoration:none;}
+	a.w3school:link {text-decoration:none;color: red;}    /* 未被访问的链接 */
+	a:visited {text-decoration:none;color: green;} /* 已被访问的链接 */
+	a:hover {text-decoration:underline;}   /* 鼠标指针移动到链接上 */
+	a:active {text-decoration:underline;}  /* 正在被点击的链接 */
+	.main h1,h2{text-align:center;}
+	.zhege{text-indent: 2em;}
+	.main img{border:1px solid #000000;}
+	#footer{margin: 20px;padding: 20px;border: 1px solid #000000;box-shadow: #000000 1px 1px 1px;background-color: #FFFFFF;text-align:center}
+	aside{border-left: 2px solid #DDDDDD;}
+	table{width:100%;border-collapse:collapse; } /*是表格边框为单线*/
+	table tr{border:2px solid #000; }
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li class="logo"><a id="logo" href="http://ife.baidu.com/" target="_blank"><img src="\Users\Administrator\Desktop\heka\logo.jpg" width="210" height="80"></a>
+				<li class="right">
+					<ul>
+						<li id="e"><a href="http://ife.baidu.com/college/detail/id/11" title="耀耀学院" target="_blank">耀耀学院</a></li>
+						<li id="f"><a href="http://ife.baidu.com/college/detail/id/10" title="斌斌学院" target="_blank">斌斌学院</a></li>
+						<li id="i"><a href="http://ife.baidu.com/college/detail/id/9" title="小薇学院" target="_blank">小薇学院</a></li>
+					</ul>		
+				</li>
+			</ul>
+		</nav>
+	</header>
+<div class="main">
+		<h1>百度前端技术学院</h1>
+		<h2>重要说明</h2>
+		<p class="zhege">百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。</p><br/>
+		<p class="zhege">课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的<a class="w3school" href="http://www.w3school.com.cn/index.html" target="_blank" >参考资料</a>未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+</div>
+	<div class="main">
+		<h1>任务一：HTML和CSS</h1>
+		<h2>任务目的</h2>
+		<p>了解HTML的定义、概念、发展简史<br/>
+		掌握常用HTML标签的含义、用法，<br/>
+		能够基于设计稿来合理规划HTML文档结构<br/>
+		理解语义化，合理地使用HTML标签来构建页面<br/>
+		这是一些<a class="w3school" href="http://www.w3school.com.cn/h.asp" target="_blank">资料</a>
+		</p>
+		<img src="\Users\Administrator\Desktop\aa.jpg" alt="任务注意事项" width="400" height="130">
+		<ul>									<!-- 快捷生成：ul>li*4  ctrl+E -->						
+			<li>no.1</li>      
+			<li>no.2</li>
+			<li>no.3</li>
+			<li>no.4</li>
+		</ul>
+	</div>
+	<div class="main">
+		<h1>下面是一个表格</h1>
+		<h2>随便画一个表格</h2>
+		<ul>
+			<li>内容1</li>
+			<li>内容2</li>
+			<li>内容3</li>
+			<br/>
+		</ul>
+	<table border="1">  
+	<tr>  
+	    <th colspan="3">这是个表格</th> 	<!--colspan="3"单元行横跨三列--> 
+    </tr>  
+	<tr>  
+	    <td>第一列</td>  
+	    <td>第二列</td>  
+	    <td>第三列</td>  
+	    </tr>  
+	<tr>  
+	    <td><a class="w3school" href="#" target="_blank">空链接</a></td>  
+	    <td><a class="w3school" href="#" target="_blank">空链接</a></td>  
+	    <td><a class="w3school" href="#" target="_blank">空链接</a></td>  
+	    </tr>  
+	<tr>  
+	    <td colspan="3">消失的第三行</td>  
+	    </tr> 
+	</table> 
+	</div>
+	<div id="footer">
+		<aside id="side">
+    		<nav>
+        		这是一个侧栏
+    		</nav>
+		</aside><br/>
+		<form>
+			请输入邮箱地址:
+			<input type="text" name="email" value="这是一个文本输入框">
+		</form>
+		<p>邮箱地址按要求输入</p>
+		<form>
+		    请输入密码:&nbsp;&nbsp;
+			<input type="password" name="password" value="这是一个文本输入框"><br/>
+			<br/>
+			请再次输入密码:
+			<input type="password" name="password" value="这是一个文本输入框">
+			<br/>
+		</form>  
+		<p>密码请为6-16位英文数字</p>
+	<form>性别：&nbsp;												<!--<input type="radio"> 定义单选按钮。-->
+			<input type="radio" name="sex" value="male" checked>男
+			<input type="radio" name="sex" value="female">女<br/>             
+		<br/><select name="citys">                                      <!--selecte定义下拉列表，seclected表示默认选择-->
+			<option value="beijing" selected>北京</option>
+			<option value="shanghai">上海</option>
+			<option value="xian">西安</option>
+			<option value="guangzhou">广州</option>
+		</select>
+		<br/>
+		<br/>
+		爱好:														<!--radio定义单选按钮-->
+		<input type="radio" name="hobby" value="football">足球
+		<input type="radio" name="hobby" value="basketball">篮球<br/>
+		<br/><textarea name="presonal" cols=40 rows=4>						
+		textarea是多行输入框
+		</textarea><br/>
+		<p style=" margin:0 auto; text-align:center;"><input id="submit" class="submit" name="submit" type="submit"/></p>
+	</form>
+	</div>
+</body>
+</html>
