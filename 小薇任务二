@@ -14,9 +14,9 @@
 	.main{margin: 20px;padding: 20px;border: 1px solid #000000;box-shadow: #000000 1px 1px 1px;background-color: #FFFFFF;}
 	.w3school{text-decoration:none;}
 	a.w3school:link {text-decoration:none;color: red;}    /* 未被访问的链接 */
-	a:visited {text-decoration:none;color: green;} /* 已被访问的链接 */
-	a:hover {text-decoration:underline;}   /* 鼠标指针移动到链接上 */
-	a:active {text-decoration:underline;}  /* 正在被点击的链接 */
+	a.w3school:visited {text-decoration:none;color: green;} /* 已被访问的链接 */
+	a.w3school:hover {text-decoration:underline;}   /* 鼠标指针移动到链接上 */
+	a.w3school:active {text-decoration:underline;}  /* 正在被点击的链接 */
 	.main h1,h2{text-align:center;}
 	.zhege{text-indent: 2em;}
 	.main img{border:1px solid #000000;}
